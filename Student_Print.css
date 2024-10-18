@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+body{
+    min-height: 100vh;
+    background-color: #fff;
+}
+ul{
+    list-style: none;
+    background-color: #e0d9d9;
+    text-align: center;
+}
+ul li{
+    display:inline-block;
+    position: relative;
+    margin:0 10px;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #080808;
+    text-decoration: none;
+    text-align: center;
+}
+ul li a img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+ul li a img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
+ul li ul.dropdown li{
+   display: center;
+   background: #e6e3e3;
+   margin: 2px 0px;
+}
+ul li ul.dropdown{
+    width: auto;
+    background: absolute;
+    position: absolute;
+    z-index: 999;
+    display:none;
+}
+ul li a:hover{
+    background: #d1cccc;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.header div {
+    display: flex;
+    flex-direction: column;
+}
+.header div span {
+    margin-bottom: 0px;
+}
+.header div span input {
+    margin-left: 5px;
+}
+.table-container {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(241, 236, 236);
+    padding: 5px;
+    text-align: left;
+}
+th {
+    background-color: #f3e9e9;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+.checkbox-container input {
+    margin-left: 5px;
+}

@@ -1,0 +1,33 @@
+body {
+  background: rgba(0, 0, 0, 0.2)  url('img/back.jpg') center/cover no-repeat fixed;
+  font-family: sans-serif;
+}
+.sidebar {
+  color: rgb(185, 218, 247);
+  width: 200px;
+  height: 200%;
+  background-color: #5c5959;
+  float: left;
+  padding: 20px;
+}
+.content {
+  color: #2c2929;
+  margin-left: 220px;
+  padding: 20px;
+}
+.card {
+  background-color: #696666;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-footer {
+  font-size: 14px;
+  color: #777;
+}

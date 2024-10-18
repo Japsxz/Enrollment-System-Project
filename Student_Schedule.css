@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+body{
+    min-height: 100vh;
+    background-image: url("bg.avif");
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style: none;
+    background-color: #e0d9d9;
+    text-align: center;
+}
+ul li{
+    display:inline-block;
+    position: relative;
+    margin:0 10px;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #080808;
+    text-decoration: none;
+    text-align: center;
+}
+ul li a img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+ul li a img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
+ul li ul.dropdown li{
+   display: center;
+   background: #e6e3e3;
+   margin: 2px 0px;
+}
+ul li ul.dropdown{
+    width: auto;
+    background: absolute;
+    position: absolute;
+    z-index: 999;
+    display:none;
+}
+ul li a:hover{
+    background: #d1cccc;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.booking-form{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+ 
+}
+.booking-form h2{
+    text-align: center;
+}
+.booking-form form{
+    display: flex;
+    flex-direction:column;
+
+}
+.booking-form input{
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.booking-form button{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button hover{
+    background-color: #45a049;
+}

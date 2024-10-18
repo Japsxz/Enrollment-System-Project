@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Administrators</h1>
+  <ul id="admin-list">
+    <!-- list of administrators will be displayed here -->
+  </ul>
+  <button id="add-admin-btn">Add New Admin</button>
+  <button id="delete-admin-btn">Delete Admin</button>
+
+  <!-- modal for adding new admin -->
+  <div id="add-admin-modal">
+    <form>
+      <label for="new-admin-name">Name:</label>
+      <input type="text" id="new-admin-name" name="new-admin-name"><br><br>
+      <label for="new-admin-email">Email:</label>
+      <input type="email" id="new-admin-email" name="new-admin-email"><br><br>
+      <button id="add-admin-submit">Add Admin</button>
+    </form>
+  </div>
+
+  <!-- modal for deleting admin -->
+  <div id="delete-admin-modal">
+    <p>Are you sure you want to delete this admin?</p>
+    <button id="delete-admin-confirm">Yes, Delete</button>
+    <button id="delete-admin-cancel">Cancel</button>
+  </div>
+
+  <script src="Admin.js"></script>
+</body>
+</html>

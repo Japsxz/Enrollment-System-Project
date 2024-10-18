@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="brand-name">
+            <h1>SUPER ADMIN</h1>
+        </div>
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">SUPER ADMIN DASHBOARD<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="dropdown-btn">MANAGE</button>
+                    <div class="dropdown-content">
+                        <a href="Admin.html">Admin</a>
+                        <a href="Course.html">Course</a>
+                        <a href="Sudent.html">Student</a>
+                        <a href="Instructor.html">Instructor</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="dropdown-btn">RECORDS AND REPORTS</button>
+                    <div class="dropdown-content">
+                        <a href="Instructor Records.html">Instructor Records</a>
+                        <a href="Student Records.html">Student Records</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <button class="dropdown-btn">SETTING</button>
+                    <div class="dropdown-content">
+                        <a href="Admin.html">Admin</a>
+                        <a href="#">Instructor</a>
+                        <a href="#">Super Admin</a>
+                    </div>
+                </li>
+    
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                </li>
+            </ul>
+            </ul>
+        </div>
+    </nav>
+    <div class="content"> 
+     
+         <div class="data-info"> 
+               <div class="box">
+                    <i class="fa fa-user"></i>
+                    <div class="data">
+                          <p>Super Admin</p>
+                          <span>1</span>
+                    </div>
+               </div>
+               <div class="box">
+                    <i class="fa fa-pen"></i>
+                    <div class="data">
+                    <p>Admin</p>
+                    <span>1</span>
+                    </div>
+               </div>
+               <div class="box">
+                   <i class="fa fa-table"></i>
+                   <div class="data">
+                       <p>Instructor</p>
+                       <span>1</span>
+                    </div>
+               </div>
+               <div class="box">
+                   <i class="fa fa-dollar"></i>
+                   <div class="data">
+                        <p>Student</p>
+                        <span>1</span>
+                   </div>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

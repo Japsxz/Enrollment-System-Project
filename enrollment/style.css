@@ -1,0 +1,146 @@
+.brand-name {
+  text-align: center;
+}
+.brand-name {
+  padding-left: 20px;
+  color:#ffffff;
+  font-size:25px;
+  font-weight:bold;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.brand-name {
+  margin-right: 20px;
+}
+body  {
+  background: rgba(0, 0, 0, 0.2)  url('img/bg.avif') center/cover no-repeat fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+  
+nav ul {
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    position: relative;
+    font-size: 10px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #525356;
+}
+.dropdown-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-btn:hover {
+  background-color: #3e8e41;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 10px 0px rgba(255, 72, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f1ecef;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight:bold;
+}
+.dropdown-content a:hover {
+  background-color: #393838;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+  background-color: #ffffff;
+}
+.content {
+  width:100%;
+  margin:10px;
+}
+
+.data-info {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px;
+  
+}
+
+.title-info {
+  background-color:#0481ff;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-radius:8px;
+  margin:10px 0;
+}
+
+.data-info .box {
+  background-color:rgb(189, 73, 235);
+  background: linear-gradient(60deg, rgb(236, 135, 81),rgb(54, 54, 107)) ;
+  height:160px;
+  flex-basis:150px;
+  flex-grow:20;
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  
+}
+
+.data-info .box i {
+  font-size:40px;
+  
+  
+}
+.data-info .box .data {
+  align-items:center;
+}
+
+.data-info .box .data span {
+  font-size:30px;
+}
